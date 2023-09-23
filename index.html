@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/logo.png">
+    <title>Desigesk</title>
+</head>
+<body>
+
+    <header>
+        <h1><span class="cuadro"></span>DESIGESK</h1>
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="#inicio" onclick="abrirCerrarMenu()">Inicio</a>
+                </li>
+                <li>
+                    <a href="#sobremi" onclick="abrirCerrarMenu()">Sobre mí</a>
+                </li>
+                <li>
+                    <a href="#proyectos" onclick="abrirCerrarMenu()">Portafolio</a>
+                </li>
+                <li>
+                    <a href="#servicios" onclick="abrirCerrarMenu()">Servicios</a>
+                </li>
+                <li>
+                    <a href="#contacto" onclick="abrirCerrarMenu()">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <button onclick="abrirCerrarMenu()"><i class="fa-solid fa-bars"></i></button>
+    </header>
+ 
+    
+    <section id="inicio">
+        <div class="contenido">
+            <div class="fila">
+                <div class="col">
+                    <div class="ui">
+                        Desigesk<span class="circulo"></span>
+                    </div>
+                    <div class="info">
+                        <h2>Productora <br> Multimedia</h2>
+                    </div>
+                    <div class="vertical txt">
+                        Diseñadora
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/18.jpg" alt="" class="anim2">
+                </div>
+                <div class="col derecha">
+                    <h3>SE LA COMPETENCIA MÁS FUERTE DE TU COMPETENCIA</h3>
+                    <p>Estudiante de Producción Multimedia.</p>
+                    <div class="botones">
+                        <a download href="img/Hoja-de-vida1.pdf" target="_blank"><button class="btn-primary">Descargar cv</button></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section id="sobremi">
+        <div class="contenido">
+            <div class="fila">
+                <div class="col">
+                    <h2 class="titulo-seccion">Sobre <span class="resaltado">mí</span></h2>
+                    <p>Soy una productora multimedia en formación. Con gran creatividad y ganas de aprender, mis mejores cualidades son la disciplina a la hora de realizar proyectos, mi dedicación en cada uno de estos y mi capacidad para trabajar en equipo.</p>
+
+                    <div class="skills">
+                        <p> <span class="punto"></span> Ilustración</p>
+                        <div class="barra-skill">
+                            <div class="progreso" id="dw">
+                                <span>95%</span>
+                            </div>
+                        </div>
+
+                        <p> <span class="punto"></span> Animación</p>
+                        <div class="barra-skill">
+                            <div class="progreso" id="dg">
+                                <span>60%</span>
+                            </div>
+                        </div>
+
+                        <p> <span class="punto"></span> Desarrollo Web</p>
+                        <div class="barra-skill">
+                            <div class="progreso" id="bd">
+                                <span>45%</span>
+                            </div>
+                        </div>
+
+                        <p> <span class="punto"></span>Fotografía</p>
+                        <div class="barra-skill">
+                            <div class="progreso" id="md">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a download href="img/Hoja-de-vida1.pdf" target="_blank"><button class="btn-primary">Descargar CV</button></a>
+                </div>
+                <div class="col">
+                    <img src="img/16.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+   
+    <section id="proyectos">
+        <div class="contenido">
+            <h2 class="titulo-seccion">Proyectos <span class="resaltado">destacados</span></h2>
+            <div class="fila">
+                <div class="col">
+
+                    <div class="img"> <img src="img/1.jpg" alt=""></div>
+
+                    
+                </div>
+                <div class="col">
+                    <div class="img"> <img src="img/2.jpg" alt=""></div>
+                    
+                </div>
+                <div class="col">
+                    <div class="img"> <img src="img/4.jpg" alt=""></div>
+                    
+                </div>
+                <div class="col">
+                    <div class="img"> <img src="img/6.jpeg" alt=""></div>
+                    
+                </div>
+
+            </div>
+            <div class="fila">
+
+                <div class="col">
+                    <div class="img"> <img src="img/17.jpg" alt=""></div>
+                </div>
+
+                <div class="col">
+                    <div class="img"> <img src="img/15.jpg" alt=""></div>
+                </div>
+
+                <div class="col">
+                    <div class="img"> <img src="img/9.jpg" alt=""></div>
+                </div>
+
+                <div class="col">
+                    <div class="img"> <img src="img/10.jpg" alt=""></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="servicies" id="servicios" servicies>
+        <h2 class="heading"><span>Servicios</span></h2>
+
+        <div class="servicies-container">
+            <div class="servicies-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Imagen corporativa</h3>
+                <p>Creación de logo, con sus respectivos entregables. Hechos con calidad y de acuerdo a lo que solicite el cliente.</p>
+                <a href="#" class="btn">Lee más</a>
+            </div>
+
+            <div class="servicies-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Diseño</h3>
+                <p>Desarrollo de ilustraciones para animaciones, mascotas, logos, etc.</p>
+                <a href="#" class="btn">Lee más</a>
+            </div>
+
+            <div class="servicies-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Fotografía</h3>
+                <p>Fotos de campo como en estudio, en ser necesario con edición profesional y de buen calidad.</p>
+                <a href="#" class="btn">Lee más</a>
+            </div>
+
+        
+
+        </div>
+    </section>
+
+
+
+
+  
+    <section id="contacto">
+        <img src="img/20.jpeg" class="img-subs">
+        <div class="contenido">
+            <form action="">
+                <h2 class="titulo-seccion">Contactame <br> <span class="resaltado subir"> ahora mismo</span></h2>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button class="btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+ 
+
+        </footer>
+        <div class="footer">
+            <div class="contenido">
+                <h2 class="titulo-footer">Sigueme!</h2><br>
+                <div class="redes">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div><br>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
